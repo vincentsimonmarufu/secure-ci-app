@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+  "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+  "https://checkstyle.org/dtds/configuration_1_3.dtd">
+<module name="Checker">
+  <module name="TreeWalker">
+    <!-- No extra whitespace at end of lines -->
+    <module name="RegexpSinglelineJava">
+      <property name="format" value="\s+$"/>
+      <property name="message" value="Line has trailing whitespace."/>
+    </module>
+    <!-- Opening braces on same line -->
+    <module name="LeftCurly"/>
+    <!-- Methods and variables start with lowercase -->
+    <module name="MethodName"/>
+    <module name="LocalVariableName"/>
+    <!-- Class names start with uppercase -->
+    <module name="TypeName"/>
+  </module>
+</module>
