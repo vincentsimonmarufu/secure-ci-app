@@ -112,3 +112,5 @@ docker run --rm --entrypoint whoami secure-ci-app
 
 This repository is public and accessible at:  
  https://github.com/vincentsimonmarufu/secure-ci-app
+
+ Thank You
